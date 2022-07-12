@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+}
+
+b{
+    font-size: 20px;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.shadow{
+    box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+    padding: 30px;
+}
+
+.form-input{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline-style: none;
+}
+
+
+.mx-auto{
+    margin: 0 auto;
+    max-width: 600px;
+}
+/* btn */
+.btn, .btn-del{
+    width: 100%;
+   padding: 10px 20px;
+   background-color: #333;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+}
+
+.btn-del{
+    background-color: red;
+    width: auto;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.907);
+}
+
+.mt-4{
+    margin-top: 40px;
+}
+
+.mb-4{
+    margin-bottom: 40px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.error, .success{
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    transform: translateX(-300%);
+    transition: all 3ms ease-in-out;
+}
+
+.success{
+    background-color: rgb(31, 184, 0);
+    color: #fff;
+}
+
+
+.error p {
+    color: #fff;
+}
+
+.show{
+    transform: translateX(0);
+    transition: all 3ms ease-in-out;
+}
+
+
+/* Table */
+table{
+    width: 100%;
+}
+table tr{
+    border: 2px solid #fff;
+}
+table th{
+    background-color: #333;
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+}
+
+table td{
+    padding: 10px;
+    background-color: aliceblue;
+}
